@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "font_chargeX";
+    src: url('fonts/SecularOne-Regular.ttf');
+}
+
+body {
+    /* background-color: #646464; */
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.stick {
+    position: fixed;
+    margin: 10rem 0;
+}
+
+.about {
+    padding: 6rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/car1.jpg');
+}
+
+.about p {
+    width: 50%;
+    margin: 0 auto;
+    color: #ffff;
+    font-size: 2rem;
+    direction: rtl;
+    line-height: 3rem;
+    font-family: 'font_chargeX';
+}
+
+a>img {
+    width: 5%;
+}
+
+.location {
+    margin-top: 2rem;
+    font-family: 'font_chargeX';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+.location ul {
+    font-size: 1.5rem;
+}
+
+.location h1 {
+    font-size: 3rem;
+}
+
+.location img {
+    display: block;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.contact {
+    font-family: 'font_chargeX';
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.contact img {
+    display: block;
+    width: 10%;
+    margin: 1rem auto;
+}
+
+.contact div {
+    margin: 3rem 0;
+}
+
+.phone_btn {
+    text-decoration: none;
+    color: #ffff;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 3px solid #91F638;
+}
+
+footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background-color: gray;
+    color: #ffff;
+    width: 100%;
+    text-decoration: center;
+}
