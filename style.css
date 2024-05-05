@@ -9,9 +9,6 @@
     src: url('fonts/SecularOne-Regular.ttf');
 }
 
-body {
-    /* background-color: #646464; */
-}
 
 .hero {
     display: flex;
@@ -52,9 +49,9 @@ body {
     font-family: 'font_chargeX';
 }
 
-a>img {
-    width: 5%;
-}
+/* a>img {
+    max-width: 10%;
+} */
 
 .location {
     margin-top: 2rem;
@@ -138,4 +135,22 @@ footer img {
     color: #ffff;
     width: 100%;
     text-decoration: center;
+}
+.stick img{
+    width: 80px;
+}
+
+@media screen and (max-width:560px) {
+    .about p {
+        font-size: 1rem;
+    }
+    .stick img{
+        width: 60px;
+    }
+    .location img{
+        width: 15%;
+    }
+    .contact img {
+        width: 20%;
+    }
 }
