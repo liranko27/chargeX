@@ -1,13 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: "font_chargeX";
     src: url('fonts/SecularOne-Regular.ttf');
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'font_chargeX';
+}
+
+
 
 
 .hero {
@@ -60,7 +63,6 @@
     justify-content: center;
     align-items: center;
     direction: rtl;
-    /* backdrop-filter: blur(20px); */
 }
 
 .location ul {
@@ -81,32 +83,63 @@
 }
 
 .content {
-    /* backdrop-filter: blur(6px); */
     background: rgba(255, 255, 255, 0.5);
     padding: 4rem 0;
 }
 
+.contact_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+}
 
+.contact_us form {
+    display: block;
+    direction: rtl;
+    flex: 60%;
+    margin: 1.5rem 10%;
+
+}
+
+.contact_us form input {
+    min-width: 270px;
+    padding: .4rem 0;
+    border-radius: .5rem;
+}
+
+.contact_us form textarea {
+    resize: none;
+    width: 270px;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+form label {
+    margin: 0;
+}
 
 .contact {
     font-family: 'font_chargeX';
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 40%;
     direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .contact img {
     display: block;
-    width: 10%;
-    margin: 1rem auto;
+    width: 100%;
+    border-radius: 1rem;
+    /* margin: 1rem auto; */
 }
 
 .contact div {
@@ -118,7 +151,8 @@
 }
 
 
-.phone_btn {
+.phone_btn,
+.submit {
     text-decoration: none;
     color: #ffff;
     background-color: gray;
@@ -126,11 +160,13 @@
     padding: 1rem;
     border: 3px solid #91F638;
     border-radius: 1rem;
-    min-width: 300px;
+    min-width: 250px;
     text-align: center;
 }
 
-.phone_btn:hover {
+
+.phone_btn:hover,
+.submit:hover {
     background-color: darkgray;
 }
 
@@ -185,5 +221,9 @@ footer img {
 
     .contact img {
         width: 20%;
+    }
+
+    .contact_us {
+        flex-direction: column;
     }
 }

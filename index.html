@@ -47,17 +47,36 @@
             </ul>
         </div>
     </section>
+    <section class="contact_us">
+        <section class="contact">
+            <!-- <div><img src="images/phone.png" alt="phone"></div> -->
+            <img src="images/contact img.jpeg" alt="contact us image">
+            <h1>לשיחת ייעוץ חינם חייגו:</h1>
+            <div>
+                <a class="phone_btn" href="tel:+972544590490">054-4590490 לירון</a>
+            </div>
+            <div>
+                <a class="phone_btn" href="tel:+972586567657">058-6567657 לירן</a>
+            </div>
+        </section>
+        <form>
+            <h1>צור קשר:</h1>
+            <label for="name">שם:</label><br>
+            <input type="text" id="name" name="name" required class="customer_name"><br><br>
 
-    <section class="contact">
-        <div><img src="images/phone.png" alt="phone"></div>
-        <h1>לשיחת ייעוץ חינם חייגו:</h1>
-        <div>
-            <a class="phone_btn" href="tel:+972544590490">054-4590490 לירון</a>
-        </div>
-        <div>
-            <a class="phone_btn" href="tel:+972586567657">058-6567657 לירן</a>
-        </div>
+            <label for="email">כתובת דואר אלקטרוני:</label><br>
+            <input type="email" id="email" name="email" class="customer_email" required><br><br>
+
+            <label for="subject">נושא:</label><br>
+            <input type="text" id="subject" name="subject" class="customer_subject" required><br><br>
+
+            <label for="message">הודעה:</label><br>
+            <textarea id="message" name="message" rows="5" required class="customer_message"></textarea><br><br>
+
+            <input type="submit" value="שלח" class="submit">
+        </form>
     </section>
+
     <footer>
         <div>
             <img src="images/logo_chargex_bottom.png" alt="chargeX logo">
@@ -66,6 +85,8 @@
             כל הזכויות שמורות © ChargeX 2024
         </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
