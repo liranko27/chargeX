@@ -51,7 +51,8 @@
 }
 
 .location {
-    background: url('images//location\ background.jpeg') no-repeat center center fixed;
+    background: url('images/location\ back.jpeg') no-repeat center center fixed;
+    background-size: 100%;
     margin-top: 2rem;
     font-family: 'font_chargeX';
     display: flex;
@@ -59,7 +60,7 @@
     justify-content: center;
     align-items: center;
     direction: rtl;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
 }
 
 .location ul {
@@ -80,7 +81,8 @@
 }
 
 .content {
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
+    background: rgba(255, 255, 255, 0.5);
     padding: 4rem 0;
 }
 
