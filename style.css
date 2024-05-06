@@ -76,6 +76,7 @@
 .location img {
     display: block;
     width: 15%;
+    max-width: 200px;
     margin: 0 auto;
 }
 
@@ -96,6 +97,7 @@
 }
 
 .content {
+    width: 100%;
     background: rgba(255, 255, 255, 0.5);
     padding: 4rem 0;
 }
@@ -119,6 +121,7 @@
 .contact img {
     display: block;
     width: 50%;
+    max-width: 400px;
     margin: 1rem auto;
 }
 
@@ -148,7 +151,7 @@
 }
 
 footer {
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +167,7 @@ footer img {
 .copyright {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 2rem 0;
     background-color: gray;
     color: #ffff;
@@ -193,11 +196,11 @@ footer img {
     }
 
     .location img {
-        width: 15%;
+        width: 20%;
     }
 
     .contact img {
-        width: 20%;
+        width: 35%;
     }
     .contact_us{
         flex-direction: column;
