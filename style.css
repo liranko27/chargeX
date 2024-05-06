@@ -103,8 +103,6 @@
     margin-bottom: 2rem;
 }
 
-
-
 .contact img {
     display: block;
     width: 10%;
@@ -112,8 +110,13 @@
 }
 
 .contact div {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .phone_btn {
     text-decoration: none;
@@ -122,6 +125,13 @@
     font-size: 1.5rem;
     padding: 1rem;
     border: 3px solid #91F638;
+    border-radius: 1rem;
+    min-width: 300px;
+    text-align: center;
+}
+
+.phone_btn:hover {
+    background-color: darkgray;
 }
 
 footer {
