@@ -79,6 +79,22 @@
     margin: 0 auto;
 }
 
+.contact_us{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+.contact_us div:first-child{
+    flex:20%;
+}
+.contact_img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
 .content {
     background: rgba(255, 255, 255, 0.5);
     padding: 4rem 0;
@@ -89,9 +105,8 @@
 .contact {
     font-family: 'font_chargeX';
     margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    flex: 80%;
     direction: rtl;
 }
 
@@ -103,7 +118,7 @@
 
 .contact img {
     display: block;
-    width: 16%;
+    width: 50%;
     margin: 1rem auto;
 }
 
@@ -183,5 +198,8 @@ footer img {
 
     .contact img {
         width: 20%;
+    }
+    .contact_us{
+        flex-direction: column;
     }
 }
